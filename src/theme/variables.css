@@ -298,3 +298,9 @@ http://ionicframework.com/docs/theming/ */
   display: flex;
   flex-direction: column;
 }
+.md .select-icon {
+  display: none !important;
+}
+.md .select-icon-inner {
+  display: none !important;
+}

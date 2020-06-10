@@ -44,6 +44,15 @@ const HomeCustomer: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
+        {/* <IonToolbar color="gray">
+          <IonButtons slot="start">
+            <IonMenuButton className="shadow" auto-hide="false">
+              <IonImg className="iconButton" src={iconmenu} />
+            </IonMenuButton>
+          </IonButtons>
+
+          <IonTitle className="ion-text-center title">FindCleaner</IonTitle>
+        </IonToolbar> */}
         <IonImg src={banner} />
         <IonGrid className="wrapper">
           <IonRouterLink color="link" href="/cleaningservicerequest">

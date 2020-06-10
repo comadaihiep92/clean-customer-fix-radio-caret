@@ -131,12 +131,35 @@ const CleaningServiceRequest: React.FC = () => {
                     slot="start"
                     value="1 Toilet"
                   />
-                  <IonImg className="iconRadio showIcon" src={iconCheck} />
-                  <IonList className="listRadio__item checkList">
+                  {selected === "1 Toilet" ? (
+                    <IonList>
+                      <IonImg className="iconRadio showIcon" src={iconCheck} />
+                      <IonList className="listRadio__item checkList">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel className="blueNum">1</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  ) : (
+                    // <IonImg className="iconRadio showIcon" src={iconCheck} />
+                    <IonList>
+                      <IonImg
+                        className="iconRadio hiddenIcon"
+                        src={iconCheck}
+                      />
+                      <IonList className="listRadio__item">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel>1</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  )}
+                  {/* <IonImg className="iconRadio showIcon" src={iconCheck} />
+                   <IonList className="listRadio__item checkList">
                     <IonLabel className="flexLabelCleaning">
                       <IonLabel className="blueNum">1</IonLabel>Toilet
-                    </IonLabel>
-                  </IonList>
+                     </IonLabel>
+                   </IonList> */}
                 </IonItem>
                 <IonItem
                   lines="none"
@@ -147,12 +170,35 @@ const CleaningServiceRequest: React.FC = () => {
                     slot="start"
                     value="2 Toilet"
                   />
-                  <IonImg className="iconRadio" src={iconCheck} />
+                  {selected === "2 Toilet" ? (
+                    <IonList>
+                      <IonImg className="iconRadio showIcon" src={iconCheck} />
+                      <IonList className="listRadio__item checkList">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel className="blueNum">2</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  ) : (
+                    // <IonImg className="iconRadio showIcon" src={iconCheck} />
+                    <IonList>
+                      <IonImg
+                        className="iconRadio hiddenIcon"
+                        src={iconCheck}
+                      />
+                      <IonList className="listRadio__item">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel>2</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  )}
+                  {/* <IonImg className="iconRadio" src={iconCheck} />
                   <IonList className="listRadio__item">
                     <IonLabel className="flexLabelCleaning">
                       2 <IonLabel>Toilet</IonLabel>
                     </IonLabel>
-                  </IonList>
+                  </IonList> */}
                 </IonItem>
                 <IonItem
                   lines="none"
@@ -163,12 +209,35 @@ const CleaningServiceRequest: React.FC = () => {
                     slot="start"
                     value="3 Toilet"
                   />
-                  <IonImg className="iconRadio" src={iconCheck} />
+                  {selected === "3 Toilet" ? (
+                    <IonList>
+                      <IonImg className="iconRadio showIcon" src={iconCheck} />
+                      <IonList className="listRadio__item checkList">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel className="blueNum">3</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  ) : (
+                    // <IonImg className="iconRadio showIcon" src={iconCheck} />
+                    <IonList>
+                      <IonImg
+                        className="iconRadio hiddenIcon"
+                        src={iconCheck}
+                      />
+                      <IonList className="listRadio__item">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel>3</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  )}
+                  {/* <IonImg className="iconRadio" src={iconCheck} />
                   <IonList className="listRadio__item">
                     <IonLabel className="flexLabelCleaning">
                       3 <IonLabel>Toilet</IonLabel>
                     </IonLabel>
-                  </IonList>
+                  </IonList> */}
                 </IonItem>
                 <IonItem
                   lines="none"
@@ -179,12 +248,35 @@ const CleaningServiceRequest: React.FC = () => {
                     slot="start"
                     value="4 Toilet"
                   />
-                  <IonImg className="iconRadio" src={iconCheck} />
+                  {selected === "4 Toilet" ? (
+                    <IonList>
+                      <IonImg className="iconRadio showIcon" src={iconCheck} />
+                      <IonList className="listRadio__item checkList">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel className="blueNum">4</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  ) : (
+                    // <IonImg className="iconRadio showIcon" src={iconCheck} />
+                    <IonList>
+                      <IonImg
+                        className="iconRadio hiddenIcon"
+                        src={iconCheck}
+                      />
+                      <IonList className="listRadio__item">
+                        <IonLabel className="flexLabelCleaning">
+                          <IonLabel>4</IonLabel>Toilet
+                        </IonLabel>
+                      </IonList>
+                    </IonList>
+                  )}
+                  {/* <IonImg className="iconRadio" src={iconCheck} />
                   <IonList className="listRadio__item">
                     <IonLabel className="flexLabelCleaning">
                       5 <IonLabel>Toilet</IonLabel>
                     </IonLabel>
-                  </IonList>
+                  </IonList> */}
                 </IonItem>
               </IonList>
             </IonRadioGroup>
