@@ -142,6 +142,9 @@ select::-ms-expand {
 .noFlat .select-icon-inner {
   opacity: 0 !important;
 }
+.noFlat::part(icon) {
+  display: none;
+}
 .cleaning__margintop .select-icon .select-icon-inner {
   display: none;
 }
